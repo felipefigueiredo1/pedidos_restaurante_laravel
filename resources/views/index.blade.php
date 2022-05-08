@@ -3,7 +3,7 @@
 @section('content')
 <div class="container bg-light">
     <div class="bg-dark p-4 rounded">
-        <h1 class="text-light text-center">Abrir a conta</h1>
+        <h1 class="text-light text-center">Pedidos</h1>
     </div>
     <form action="{{ route('index') }}" method="post" class="mt-2">
         @csrf
@@ -48,8 +48,8 @@
         <button type="submit" class="btn btn-primary">Salvar</button>
     </form>
         <div class="align-items-center mt-2">
-            <button class="btn btn-success " ><a href="{{ route('caixa') }}" class="text-light">Fechar Caixa</a></button>
-            <p class="">Valor do ultimo fechamento: $RS1331.00 {{ $pedidosS }}</p>
+            <!--<button class="btn btn-success " ><a href="{{ route('caixa') }}" class="text-light">Fechar Caixa</a></button>-->
+            <p class="weight">Valor total caixa: R${{ number_format($pedidosS, 2) }}</p>
         </div>
 
     <hr>
