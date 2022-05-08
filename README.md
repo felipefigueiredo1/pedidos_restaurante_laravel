@@ -3,7 +3,7 @@
 - Importe a base de dados restaurante.sql 
 - Renomeie o arquivo .env.example para .env dentro da raiz do seu projeto e preencha 
 as informações do banco de dados
-- Execute composer install
+- Execute o comando <code>composer install</code>
 - Execute o comando <code>php artisan key:generate</code>
 
 ## Preview 
