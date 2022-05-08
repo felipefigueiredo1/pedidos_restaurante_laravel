@@ -4,3 +4,7 @@
 - Renomeie o arquivo .env.example para .env dentro da raiz do seu projeto e preencha 
 as informações do banco de dados
 - Execute composer install
+
+## Preview 
+![image](https://user-images.githubusercontent.com/92311384/167301005-0dd645d0-fb9f-4b26-a623-2fa6f6b2f91b.png)
+
